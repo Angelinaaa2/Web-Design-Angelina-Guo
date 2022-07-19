@@ -1,9 +1,33 @@
+@import url("normalize.css");
+
+/* -------------------- GLOBAL DEFAULTS */
+
+* {
+    box-sizing: border-box;
+}
+
 body{
     background-color: rgb(246, 255, 255);
 }
 
-h1{
-background-color: rgb(178, 223, 205);
-color: rgb(15, 16, 16);
+/* -------------------- HEADINGS AND TYPE */
 
-}
+h1{
+    background-color: rgb(196, 234, 218);
+    color: rgb(15, 16, 16);
+    
+    }
+    
+    h1{
+        font-family: sans-serif
+    }
+  
+/* -------------------- LAYOUTS */
+
+/* -------------------- HEADER */
+
+/* -------------------- NAVIGATION */
+
+/* -------------------- FOOTER */
+
+/* -------------------- MODULES */
