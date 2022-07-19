@@ -7,13 +7,13 @@
 }
 
 body {
-    background-color: rgb(246, 255, 255);
+    background-color: white
 }
 
 /* -------------------- HEADINGS AND TYPE */
 
 h1 {
-    background-color: rgb(196, 234, 218);
+    background-color: rgb(246, 204, 204);
     color: rgb(15, 16, 16);
 
 }
@@ -25,7 +25,7 @@ h1 {
 /* -------------------- LAYOUTS */
 
 .layout-wide {
-    background-color: rgb(239, 209, 214);
+    background-color: rgb(200, 232, 219);
 
     max-width: 1000px;
     margin-left: auto;
