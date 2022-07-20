@@ -10,17 +10,35 @@ body {
     background-color: white
 }
 
+
+img,
+iframe{
+    max-width: 100%;
+}
+
+
 /* -------------------- HEADINGS AND TYPE */
 
 h1 {
     background-color: rgb(246, 204, 204);
     color: rgb(15, 16, 16);
-
-}
-
-h1 {
+    font-size: 60px;
     font-family: sans-serif
+
 }
+
+h2 {
+    font-size: 40px;
+    font-family: sans-serif ;
+}
+
+h3 {
+    font-size: 24px;
+    font-family: sans-serif;
+}
+
+
+
 
 /* -------------------- LAYOUTS */
 
