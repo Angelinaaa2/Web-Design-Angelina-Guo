@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: white
+    background-color: rgb(183, 248, 226)
 }
 
 
@@ -20,7 +20,7 @@ iframe{
 /* -------------------- HEADINGS AND TYPE */
 
 h1 {
-    background-color: rgb(246, 204, 204);
+    background-color: rgb(255, 255, 255);
     color: rgb(15, 16, 16);
     font-size: 60px;
     font-family: sans-serif
@@ -37,17 +37,21 @@ h3 {
     font-family: sans-serif;
 }
 
+p {
+    margin-bottom: 2em;
+}
 
 
 
 /* -------------------- LAYOUTS */
 
 .layout-wide {
-    background-color: rgb(200, 232, 219);
+    background-color: rgb(255, 255, 255);
 
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
+    padding: 3%;
 }
 
 /* -------------------- HEADER */
