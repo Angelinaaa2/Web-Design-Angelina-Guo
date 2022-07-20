@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: rgb(183, 248, 226)
+    background-color: rgb(148, 215, 175)
 }
 
 
@@ -20,8 +20,7 @@ iframe{
 /* -------------------- HEADINGS AND TYPE */
 
 h1 {
-    background-color: rgb(255, 255, 255);
-    color: rgb(15, 16, 16);
+    color: rgb(239, 135, 135);
     font-size: 60px;
     font-family: sans-serif
 
@@ -61,3 +60,8 @@ p {
 /* -------------------- FOOTER */
 
 /* -------------------- MODULES */
+
+.content-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
