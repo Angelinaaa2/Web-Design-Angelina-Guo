@@ -9,7 +9,9 @@
 
 body {
     font-family: sans-serif;
+    line-height: 1.5;
     background-color: rgb(148, 215, 175)
+
 }
 
 
@@ -32,24 +34,34 @@ h5 {
 
 h1 {
     color: rgb(239, 135, 135);
-    font-size: 60px;
-
+    font-size: 64px;
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 48px;
 }
 
 h3 {
-    font-size: 24px;
-
+    font-size: 28px;
 }
+
+h4 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 16px;
+}
+
 
 p {
     margin-bottom: 2em;
 }
 
-
+.highlight {
+    font-weight: bold;
+    background-color: rgb(148, 215, 175);
+}
 
 /* -------------------- LAYOUTS */
 
