@@ -20,7 +20,7 @@ iframe {
 }
 
 a {
-    color:rgba(105, 154, 127, 0.651)
+    color: rgba(105, 154, 127, 0.651)
 }
 
 a:hover {
@@ -82,6 +82,10 @@ p {
 
 /* -------------------- HEADER */
 
+header {
+    background-color: rgba(105, 154, 127, 0.651)
+}
+
 /* -------------------- NAVIGATION */
 
 /* -------------------- FOOTER */
@@ -97,5 +101,6 @@ p {
 
     .content-item {
         grid-template-columns: 1fr 1fr;
+        gap: 20px;
     }
 }
