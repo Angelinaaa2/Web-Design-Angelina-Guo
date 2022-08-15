@@ -83,7 +83,17 @@ p {
 /* -------------------- HEADER */
 
 header {
+    text-align: center;
     background-color: rgba(105, 154, 127, 0.651)
+}
+
+.header-image img {
+    max-width: 200px;
+}
+
+.header-text {
+    font-family: sans-serif;
+    font-size: 30px;
 }
 
 /* -------------------- NAVIGATION */
