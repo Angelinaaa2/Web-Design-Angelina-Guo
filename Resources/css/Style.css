@@ -83,7 +83,7 @@ p {
 /* -------------------- HEADER */
 
 header {
-    text-align: center;
+    text-align: left;
     background-color: rgba(105, 154, 127, 0.651)
 }
 
@@ -93,10 +93,65 @@ header {
 
 .header-text {
     font-family: sans-serif;
-    font-size: 30px;
+    font-size: 50px;
 }
 
+@media screen and (min-width: 800px) {
+
+    header {
+        text-align: left;
+}
+
+header.layout-wide {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.header-text {
+    text-align: right;
+    font-size: 80px;
+}
+
+}
+
+
 /* -------------------- NAVIGATION */
+
+.main-nav {
+    list-style: none;
+    padding: 0%;
+    text-align: center;
+
+    display: none;
+}
+
+.main-nav a {
+    display: block;
+    color: rgb(255, 255, 255);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.nav-prompt {
+    background-color: transparent;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(177, 132, 218);
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+@media screen and (min-width:800px) {
+    
+    .main-nav {
+        display: block;
+    }
+
+    .nav-prompt {
+        display: none;
+    }
+}
 
 /* -------------------- FOOTER */
 
