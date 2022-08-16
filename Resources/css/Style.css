@@ -83,7 +83,7 @@ p {
 /* -------------------- HEADER */
 
 header {
-    text-align: left;
+    text-align: center;
 }
 
 .header-image img {
@@ -98,7 +98,7 @@ header {
 @media screen and (min-width: 800px) {
 
     header {
-        text-align: left;
+        text-align: center;
     }
 
     header.layout-wide {
