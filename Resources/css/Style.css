@@ -10,7 +10,7 @@
 body {
     font-family: sans-serif;
     line-height: 1.5;
-    background-color: rgb(255, 255, 255)
+    background-color: rgb(243, 251, 170);
 }
 
 
@@ -20,11 +20,11 @@ iframe {
 }
 
 a {
-    color: rgba(255, 255, 255, 0.651)
+    color: rgba(110, 178, 146, 0.651)
 }
 
 a:hover {
-    background-color: rgba(255, 255, 255, 0.96);
+    background-color: rgba(146, 244, 172, 0.96);
 }
 
 /* -------------------- HEADINGS AND TYPE */
@@ -66,13 +66,13 @@ p {
 
 .highlight {
     font-weight: bold;
-    background-color: #ffffff;
+    background-color: #d3a5a5;
 }
 
 /* -------------------- LAYOUTS */
 
 .layout-wide {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(243, 251, 170);
 
     max-width: 1000px;
     margin-left: auto;
@@ -137,7 +137,7 @@ nav {
 
 .main-nav a {
     display: block;
-    color: rgb(180, 156, 219);
+    color: rgb(169, 138, 220);
     padding-top: 5px;
     padding-bottom: 5px;
 }
