@@ -10,7 +10,7 @@
 body {
     font-family: sans-serif;
     line-height: 1.5;
-    background-color: rgb(148, 215, 175)
+    background-color: rgb(255, 255, 255)
 }
 
 
@@ -20,11 +20,11 @@ iframe {
 }
 
 a {
-    color: rgba(105, 154, 127, 0.651)
+    color: rgba(255, 255, 255, 0.651)
 }
 
 a:hover {
-    background-color: rgba(252, 252, 185, 0.96);
+    background-color: rgba(255, 255, 255, 0.96);
 }
 
 /* -------------------- HEADINGS AND TYPE */
@@ -66,13 +66,13 @@ p {
 
 .highlight {
     font-weight: bold;
-    background-color: #94d7af;
+    background-color: #ffffff;
 }
 
 /* -------------------- LAYOUTS */
 
 .layout-wide {
-    background-color: rgb(148, 215, 175);
+    background-color: rgb(255, 255, 255);
 
     max-width: 1000px;
     margin-left: auto;
@@ -137,7 +137,7 @@ nav {
 
 .main-nav a {
     display: block;
-    color: rgb(148, 215, 175);
+    color: rgb(180, 156, 219);
     padding-top: 5px;
     padding-bottom: 5px;
 }
@@ -146,7 +146,7 @@ nav {
     background-color: transparent;
     border-style: solid;
     border-width: 2px;
-    border-color: rgb(190, 155, 222);
+    border-color: rgb(255, 255, 255);
     width: 100%;
     padding-top: 5px;
     padding-bottom: 5px;
